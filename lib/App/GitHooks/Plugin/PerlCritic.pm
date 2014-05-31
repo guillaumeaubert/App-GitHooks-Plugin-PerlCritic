@@ -8,7 +8,6 @@ use base 'App::GitHooks::Plugin';
 # External dependencies.
 use Perl::Critic;
 use Perl::Critic::Git;
-use System::Command;
 use Try::Tiny;
 
 # Internal dependencies.
