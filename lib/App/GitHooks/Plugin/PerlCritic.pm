@@ -30,11 +30,11 @@ correctly only check for code violations in the staged half.
 
 =head1 VERSION
 
-Version 1.0.0
+Version 1.0.1
 
 =cut
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 
 # Tweak the format of the violations reported by PerlCritic.
 # Note: the PerlCritic package unfortunately doesn't honor .perlcriticrc,
