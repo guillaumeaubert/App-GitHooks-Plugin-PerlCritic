@@ -8,6 +8,7 @@ WriteMakefile
   'PREREQ_PM' => {
                    'App::GitHooks' => 0,
                    'Capture::Tiny' => 0,
+                   'Git::Repository' => 0,
                    'Perl::Critic' => 0,
                    'Perl::Critic::Git' => 0,
                    'Test::Exception' => 0,
