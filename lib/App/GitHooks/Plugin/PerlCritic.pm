@@ -72,7 +72,7 @@ success or failure of the plugin.
 
 sub get_file_check_description
 {
-	return 'The file passes Perlcritic review.';
+	return "The file passes Perl::Critic's review.";
 }
 
 

@@ -28,7 +28,7 @@ my $tests =
 		{
 			'test.pl' => "#!perl\n\n1;\n",
 		},
-		expected => qr/x The file passes Perlcritic review/,
+		expected => qr/x The file passes Perl::Critic's review/,
 	},
 	{
 		name     => 'Pass PerlCritic check.',
@@ -36,7 +36,7 @@ my $tests =
 		{
 			'test.pl' => "#!perl\n\nuse strict;\nuse warnings;\n\n1;\n",
 		},
-		expected => qr/o The file passes Perlcritic review/,
+		expected => qr/o The file passes Perl::Critic's review/,
 	},
 	# Make sure the plugin skips non-Perl files.
 	{
@@ -45,7 +45,7 @@ my $tests =
 		{
 			'test.txt' => "Text\n",
 		},
-		expected => qr/^(?!.*\Q- The file passes Perlcritic review\E)/,
+		expected => qr/^(?!.*\Q- The file passes Perl::Critic's review\E)/,
 	},
 ];
 
