@@ -4,6 +4,7 @@ App-GitHooks-Plugin-PerlCritic
 [![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-PerlCritic.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-PerlCritic)
 [![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-PerlCritic/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-PerlCritic?branch=master)
 [![CPAN](https://img.shields.io/cpan/v/App-GitHooks-Plugin-PerlCritic.svg)](https://metacpan.org/release/App-GitHooks-Plugin-PerlCritic)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
 App::GitHooks plugin to verify that all changes and addition to the Perl files
 pass PerlCritic checks.
