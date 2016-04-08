@@ -13,7 +13,7 @@ WriteMakefile
                    'Perl::Critic::Git' => 0,
                    'Test::Exception' => 0,
                    'Test::FailWarnings' => 0,
-                   'Test::Git' => 0,
+                   'Test::Requires::Git' => 1.005,
                    'Test::More' => '0.94',
                    'Test::Type' => 0,
                    'Try::Tiny' => 0
