@@ -3,26 +3,26 @@ require 5.010;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'App::GitHooks::Plugin::PerlCritic',
-  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/PerlCritic.pm',
-  'PREREQ_PM' => {
-                   'App::GitHooks' => 0,
-                   'Capture::Tiny' => 0,
-                   'Git::Repository' => 0,
-                   'Perl::Critic' => 0,
-                   'Perl::Critic::Git' => 0,
-                   'Test::Exception' => 0,
-                   'Test::FailWarnings' => 0,
-                   'Test::Requires::Git' => 1.005,
-                   'Test::More' => '0.94',
-                   'Test::Type' => 0,
-                   'Try::Tiny' => 0
-                 },
   'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
   'PL_FILES' => {},
   'test' => {
               'TESTS' => 't/*.t'
-            }
+            },
+  'PREREQ_PM' => {
+                   'Perl::Critic::Git' => 0,
+                   'Test::Exception' => 0,
+                   'Test::Requires::Git' => '1.005',
+                   'Capture::Tiny' => 0,
+                   'Test::Type' => 0,
+                   'Try::Tiny' => 0,
+                   'Test::More' => '0.94',
+                   'Test::FailWarnings' => 0,
+                   'App::GitHooks' => 0,
+                   'Git::Repository' => 0,
+                   'Perl::Critic' => 0
+                 },
+  'EXE_FILES' => [],
+  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/PerlCritic.pm',
+  'NAME' => 'App::GitHooks::Plugin::PerlCritic'
 )
 ;
